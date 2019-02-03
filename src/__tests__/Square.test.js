@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { mount } from "enzyme";
 
 describe("Square", () => {
   test("displays the value passed in", () => {
@@ -11,5 +11,4 @@ describe("Square", () => {
 
   test("calls the on click function when clicked", () => {
   });
-
 });
